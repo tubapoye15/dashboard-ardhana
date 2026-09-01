@@ -15,6 +15,7 @@ class DashboardController extends Controller
             'confirmedPreorders' => 0,
             'products' => 0,
             'customers' => 0,
+            'suppliers' => 0,
         ];
 
         return view('dashboard', compact('stats'));
